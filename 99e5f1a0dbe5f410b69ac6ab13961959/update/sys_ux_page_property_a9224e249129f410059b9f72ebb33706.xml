@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Inspection Management Workspace">25224e245929f410e16614267b2cb306</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 11:51:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a9224e249129f410059b9f72ebb33706</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_ux_page_property_a9224e249129f410059b9f72ebb33706</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 11:51:42</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_inspection_0.25224e245929f410e16614267b2cb306.root.globalSearchDataConfigId</unique_name>
+        <value>4961e3e7871033000929717936cb0ba7</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9224e249129f410059b9f72ebb33706"/>
+</record_update>

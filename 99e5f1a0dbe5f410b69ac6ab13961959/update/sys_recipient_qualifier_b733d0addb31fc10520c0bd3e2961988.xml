@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_recipient_qualifier">
+    <sys_recipient_qualifier action="INSERT_OR_UPDATE">
+        <conditions/>
+        <description/>
+        <disambiguator_fields/>
+        <display_name_field>name</display_name_field>
+        <email_address_field>email</email_address_field>
+        <last_name_field>last_name</last_name_field>
+        <name>Inspection Users</name>
+        <order>100</order>
+        <prefix_search>true</prefix_search>
+        <script><![CDATA[(function (recipientQuery, targetRecord) {
+	/**
+	 * recipientQuery: A GlideRecord representing the table defined in "Table". Add conditions to
+	 *        filter the recipients returned to the Email Client auto-complete.
+	 *        i.e. recipientQuery.addQuery('active', true);
+	 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+	 */
+
+})(recipientQuery, targetRecord);]]></script>
+        <search_disambiguators_fields>false</search_disambiguators_fields>
+        <sys_class_name>sys_recipient_qualifier</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-05 16:37:32</sys_created_on>
+        <sys_id>b733d0addb31fc10520c0bd3e2961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inspection Users</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_recipient_qualifier_b733d0addb31fc10520c0bd3e2961988</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-05 16:37:32</sys_updated_on>
+        <table>sys_user</table>
+        <type>condition</type>
+    </sys_recipient_qualifier>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Inspection Management Workspace Config">a5224e242129f410701c43dc37656c04</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">21224e24e629f410a9ad63a8044cef05</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 11:51:42</sys_created_on>
+        <sys_id>a1224e246029f41024a0d570a174c805</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_ux_app_route_a1224e246029f41024a0d570a174c805</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 11:51:42</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1224e246029f41024a0d570a174c805"/>
+</record_update>

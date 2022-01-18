@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New Inspection">3e3b0ea0db69f410b69ac6ab139619be</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:35:05</sys_created_on>
+        <sys_id>9d1cc224db69f410b69ac6ab139619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Inspection</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9d1cc224db69f410b69ac6ab139619ad</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:35:05</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sc_cat_item_catalog_9d1cc224db69f410b69ac6ab139619ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="New Inspection">3e3b0ea0db69f410b69ac6ab139619be</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-07-21 12:35:05</sys_created_on><sys_id>9d1cc224db69f410b69ac6ab139619ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.New Inspection</sys_name><sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package><sys_policy/><sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope><sys_update_name>sc_cat_item_catalog_9d1cc224db69f410b69ac6ab139619ad</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-07-21 12:35:05</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-176256409</payload_hash>
+        <record_name>Service Catalog.New Inspection</record_name>
+        <reverted_from/>
+        <source>15e5f1a0dbe5f410b69ac6ab1396195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:35:06</sys_created_on>
+        <sys_id>591cc224db69f410b69ac6ab139619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac90ffca60000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:35:06</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9d1cc2246c69f410076178c97ed152b3</update_guid>
+        <update_guid_history>9d1cc2246c69f410076178c97ed152b3:-176256409</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.New Inspection">5b3cc624db69f410b69ac6ab1396199a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:35:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>51077a2e380449388dbe9b963fa44c40</sys_id>
+        <sys_metadata>9d1cc224db69f410b69ac6ab139619ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Inspection</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_parent display_value="New Inspection">3e3b0ea0db69f410b69ac6ab139619be</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_scope_delete display_value="">408663e0ada34e849d96323e715c95c4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_9d1cc224db69f410b69ac6ab139619ad</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_9d1cc224db69f410b69ac6ab139619ad">591cc224db69f410b69ac6ab139619b4</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:35:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

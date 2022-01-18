@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Questions" max_length="40" name="x_snc_inspection_0_ocie_questions" sizeclass="2" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Inspection Task" max_length="32" name="inspection_task" reference="x_snc_inspection_0_inspection_task" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Question" max_length="200" name="question" type="string"/>
+        <element label="Response" max_length="1000" name="response" type="string"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="inspection_task"/>
+        </index>
+    </element>
+</database>

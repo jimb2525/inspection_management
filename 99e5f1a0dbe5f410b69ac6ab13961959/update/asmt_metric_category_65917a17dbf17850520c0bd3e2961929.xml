@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="INSERT_OR_UPDATE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter/>
+        <metric_type display_value="Post Inspection Assessment">f1613617dbf17850520c0bd3e29619fc</metric_type>
+        <name>Size</name>
+        <order>1</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 14:37:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65917a17dbf17850520c0bd3e2961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Size</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>asmt_metric_category_65917a17dbf17850520c0bd3e2961929</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 14:37:59</sys_updated_on>
+        <table>x_snc_inspection_0_inspection</table>
+        <total_metrics/>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=65917a17dbf17850520c0bd3e2961929"/>
+</record_update>

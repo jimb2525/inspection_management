@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Evidence" max_length="40" name="x_snc_inspection_0_evidence" sizeclass="2" type="collection">
+        <element label="Bate Stamp" max_length="40" name="bate_stamp" type="string"/>
+        <element label="Document" max_length="40" name="document" type="file_attachment"/>
+        <element label="Shared" max_length="40" name="external" type="boolean"/>
+        <element label="Inspection" max_length="32" name="inspection" reference="x_snc_inspection_0_inspection" type="reference"/>
+        <element label="Inspection Task" max_length="32" name="inspection_task" reference="x_snc_inspection_0_inspection_task" type="reference"/>
+        <element label="Letter Task" max_length="32" name="letter_task" reference="x_snc_inspection_0_letter_task" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <index name="index">
+            <element name="letter_task"/>
+        </index>
+        <index name="index2">
+            <element name="inspection_task"/>
+        </index>
+        <index name="index3">
+            <element name="inspection"/>
+        </index>
+    </element>
+</database>

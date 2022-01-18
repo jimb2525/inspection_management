@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Letter</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Letter</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">10af24f4db103010b69ac6ab139619c6</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 12:02:44</sys_created_on>
+        <sys_id>d81e4697dbfd3850520c0bd3e296195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Letter</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_wizard_answer_d81e4697dbfd3850520c0bd3e296195f</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 12:02:44</sys_updated_on>
+        <table/>
+        <target_url>x_snc_inspection_0_letter.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

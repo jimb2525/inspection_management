@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="deca7568dbe5f410b69ac6ab139619c7" sys_domain="global" table="x_snc_inspection_0_inspection_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>370a6c21dbf1fc10520c0bd3e29619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>bb0a6c21dbf1fc10520c0bd3e29619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>liason</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>330a6c21dbf1fc10520c0bd3e29619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>b70a6c21dbf1fc10520c0bd3e29619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_diligence_complete</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>3f0a6c21dbf1fc10520c0bd3e29619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>produced_ocie</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>b30a6c21dbf1fc10520c0bd3e29619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>3b0a6c21dbf1fc10520c0bd3e29619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>7</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>bf0a6c21dbf1fc10520c0bd3e29619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>370a6c21dbf1fc10520c0bd3e29619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>bb0a6c21dbf1fc10520c0bd3e29619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>10</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>330a6c21dbf1fc10520c0bd3e29619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_assignee_list</element>
+            <position>11</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>b70a6c21dbf1fc10520c0bd3e29619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>12</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>3f0a6c21dbf1fc10520c0bd3e29619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>b30a6c21dbf1fc10520c0bd3e29619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>14</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>3b0a6c21dbf1fc10520c0bd3e29619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>15</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>bf0a6c21dbf1fc10520c0bd3e29619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>production_notes</element>
+            <position>16</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>370a6c21dbf1fc10520c0bd3e29619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>17</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>bb0a6c21dbf1fc10520c0bd3e29619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>18</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>330a6c21dbf1fc10520c0bd3e29619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>19</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-08-05 18:16:26</sys_created_on>
+            <sys_id>b70a6c21dbf1fc10520c0bd3e29619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_inspection_0_inspection_task" sys_domain="global" view="Default view">deca7568dbe5f410b69ac6ab139619c7</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-08-05 18:16:26</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_inspection_0_inspection_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-07-21 11:19:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>deca7568dbe5f410b69ac6ab139619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_inspection_0_inspection_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+            <sys_update_name>sys_ui_section_deca7568dbe5f410b69ac6ab139619c7</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-07-21 11:19:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

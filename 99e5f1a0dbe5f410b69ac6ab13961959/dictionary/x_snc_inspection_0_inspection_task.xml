@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Inspection Task" max_length="40" name="x_snc_inspection_0_inspection_task" sizeclass="0" type="collection">
+        <element label="Due Diligence Complete?" max_length="40" name="due_diligence_complete" type="boolean"/>
+        <element label="Inspection" max_length="32" name="inspection" reference="x_snc_inspection_0_inspection" type="reference"/>
+        <element label="Liason" max_length="32" name="liason" reference="sys_user" type="reference"/>
+        <element label="Produced OCIE" max_length="40" name="produced_ocie" type="string"/>
+        <element label="Production Notes" max_length="1000" name="production_notes" type="string"/>
+    </element>
+</database>

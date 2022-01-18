@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch4-hotfix1-06-03-2021_06-07-2021_1407.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>populate_inspection_tasks</internal_name>
+        <label_cache>[{"name":"57639882-1573-4190-882b-c2d1aaa74381.Table","label":"4➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57639882-1573-4190-882b-c2d1aaa74381.Record","label":"4➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b78c65b-2c2a-411c-b04b-c74734a4bf16.Table","label":"2➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b78c65b-2c2a-411c-b04b-c74734a4bf16.Record","label":"2➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"931750fc-90f5-4fe8-8ae7-fdb2654b795b.Record","label":"1➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"931750fc-90f5-4fe8-8ae7-fdb2654b795b.Table","label":"1➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Inspection Record","reference":"x_snc_inspection_0_inspection","reference_display":"Inspection","type":"reference","base_type":"reference","attributes":{}},{"name":"d27e1c62-f67e-40bb-8985-eb200d2c575d.Record","label":"3➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d27e1c62-f67e-40bb-8985-eb200d2c575d.Table","label":"3➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>9909caecdb29f410b69ac6ab139619ce</master_snapshot>
+        <name>Populate Inspection Tasks</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>61090eecdb29f410b69ac6ab1396197d</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:07:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13c58ea8db29f410b69ac6ab13961953</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Populate Inspection Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_hub_flow_13c58ea8db29f410b69ac6ab13961953</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=13c58ea8db29f410b69ac6ab13961953"/>
+    <sys_variable_value action="delete_multiple" query="document_key=13c58ea8db29f410b69ac6ab13961953"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_inspection_0_inspection">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61090eecdb29f410b69ac6ab1396197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:44</sys_updated_on>
+        <table>x_snc_inspection_0_inspection</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"ed090eecdb29f410b69ac6ab1396197d","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>13c58ea8db29f410b69ac6ab13961953</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:44</sys_created_on>
+        <sys_id>ed090eecdb29f410b69ac6ab1396197d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:44</sys_updated_on>
+        <trigger display_value="">61090eecdb29f410b69ac6ab1396197d</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>ed090eecdb29f410b69ac6ab1396197d</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:44</sys_created_on>
+        <sys_id>e5090eecdb29f410b69ac6ab1396197e</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=13c58ea8db29f410b69ac6ab13961953^sys_idNOT INed090eecdb29f410b69ac6ab1396197d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=13c58ea8db29f410b69ac6ab13961953^sys_idNOT INda67066cdb29f410b69ac6ab1396199f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>da67066cdb29f410b69ac6ab1396199f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:45</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da67066cdb29f410b69ac6ab1396199f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>da67066cdb29f410b69ac6ab1396199f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>5a67066cdb29f410b69ac6ab139619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:14:41</sys_updated_on>
+        <value>x_snc_inspection_0_inspection</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>da67066cdb29f410b69ac6ab1396199f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>9e67066cdb29f410b69ac6ab139619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:14:41</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=13c58ea8db29f410b69ac6ab13961953^sys_idNOT INdfc58ea8db29f410b69ac6ab13961955"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>13c58ea8db29f410b69ac6ab13961953</id>
+        <name>Populate Inspection Tasks</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:07:39</sys_created_on>
+        <sys_id>dfc58ea8db29f410b69ac6ab13961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:07:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=13c58ea8db29f410b69ac6ab13961953^sys_idNOT IN9667066cdb29f410b69ac6ab1396198b,de67066cdb29f410b69ac6ab13961982"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</model>
+        <model_id>13c58ea8db29f410b69ac6ab13961953</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_13c58ea8db29f410b69ac6ab13961953</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>9667066cdb29f410b69ac6ab1396198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</model>
+        <model_id>13c58ea8db29f410b69ac6ab13961953</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_13c58ea8db29f410b69ac6ab13961953</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>de67066cdb29f410b69ac6ab13961982</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=13c58ea8db29f410b69ac6ab13961953^sys_idNOT IN6cb8c2ecdb29f410b69ac6ab13961982,9e67066cdb29f410b69ac6ab139619a6,a0b8c2ecdb29f410b69ac6ab1396197d,d6484aacdb29f410b69ac6ab139619ac"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Reports provided to Board</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>6cb8c2ecdb29f410b69ac6ab13961982</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:46:00</sys_updated_on>
+        <ui_id>57639882-1573-4190-882b-c2d1aaa74381</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6cb8c2ecdb29f410b69ac6ab13961982"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6cb8c2ecdb29f410b69ac6ab13961982</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>e0b8c2ecdb29f410b69ac6ab13961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:20:18</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6cb8c2ecdb29f410b69ac6ab13961982"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>6cb8c2ecdb29f410b69ac6ab13961982</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>60b8c2ecdb29f410b69ac6ab13961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:20:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Reports provided to Board^description=opies of any reports, studies, guidance, or memoranda, whether prepared by FINRA personnel or by a third party, that were provided to the Board or a committee of the Board related to FINRA 's ABC and XYZ programs.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>6cb8c2ecdb29f410b69ac6ab13961982</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>acb8c2ecdb29f410b69ac6ab13961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:20:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>ABC and XYZ program info</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>9e67066cdb29f410b69ac6ab139619a6</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:45:59</sys_updated_on>
+        <ui_id>931750fc-90f5-4fe8-8ae7-fdb2654b795b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e67066cdb29f410b69ac6ab139619a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9e67066cdb29f410b69ac6ab139619a6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>9e67066cdb29f410b69ac6ab139619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:14:41</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e67066cdb29f410b69ac6ab139619a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>9e67066cdb29f410b69ac6ab139619a6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>1e67066cdb29f410b69ac6ab139619a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=ABC and XYZ program info^description=All policies, procedures, and guidelines relating to FINRA's ABC and XYZ programs, in effect during the Review Period.  This should include, but is not limited to, the following: objectives; correspondence; agreements; modules; training materials and job aids; frequently asked questions; memoranda; questionnaires; and schedules.^=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>9e67066cdb29f410b69ac6ab139619a6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>d267066cdb29f410b69ac6ab139619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:14:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Board Meeting Minutes</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>a0b8c2ecdb29f410b69ac6ab1396197d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:46:00</sys_updated_on>
+        <ui_id>d27e1c62-f67e-40bb-8985-eb200d2c575d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a0b8c2ecdb29f410b69ac6ab1396197d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a0b8c2ecdb29f410b69ac6ab1396197d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>28b8c2ecdb29f410b69ac6ab1396197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:20:18</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a0b8c2ecdb29f410b69ac6ab1396197d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a0b8c2ecdb29f410b69ac6ab1396197d</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>a4b8c2ecdb29f410b69ac6ab1396197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:20:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Board Meeting Minutes^description=All minutes of FINRA Board of Governors ("Board") meetings, including any committee meetings thereof both regular and special that discussed ABC or XYZ during the Review Period.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>a0b8c2ecdb29f410b69ac6ab1396197d</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:20:18</sys_created_on>
+        <sys_id>e0b8c2ecdb29f410b69ac6ab1396197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:20:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Org Chart Information</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:18:30</sys_created_on>
+        <sys_id>d6484aacdb29f410b69ac6ab139619ac</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:46:00</sys_updated_on>
+        <ui_id>8b78c65b-2c2a-411c-b04b-c74734a4bf16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6484aacdb29f410b69ac6ab139619ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6484aacdb29f410b69ac6ab139619ac</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:18:30</sys_created_on>
+        <sys_id>5e484aacdb29f410b69ac6ab139619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:18:30</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d6484aacdb29f410b69ac6ab139619ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>d6484aacdb29f410b69ac6ab139619ac</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:18:30</sys_created_on>
+        <sys_id>da484aacdb29f410b69ac6ab139619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Org Chart Information^description=Current organizational charts of all FINRA A and B group ("A&amp;X") units and personnel, as well as of any other units or personnel within FINRA, with responsibilities related to FINRA's ABC and XYZ programs, including the A&amp;X CC unit.  Please include any current vacancies and contract personnel. Please also provide a description of any anticipated organization or personnel changes, if any.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>d6484aacdb29f410b69ac6ab139619ac</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:18:30</sys_created_on>
+        <sys_id>1a484aacdb29f410b69ac6ab139619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:18:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_13c58ea8db29f410b69ac6ab13961953^sys_idNOT IN9e67066cdb29f410b69ac6ab13961989,da67066cdb29f410b69ac6ab1396199c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_13c58ea8db29f410b69ac6ab13961953</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>9e67066cdb29f410b69ac6ab13961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:14:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_13c58ea8db29f410b69ac6ab13961953</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:14:41</sys_created_on>
+        <sys_id>da67066cdb29f410b69ac6ab1396199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:14:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=13c58ea8db29f410b69ac6ab13961953^sys_idNOT IN71090eecdb29f410b69ac6ab1396197f"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"71090eecdb29f410b69ac6ab1396197f","name":"plan"}}</plan>
+        <plan_id>13c58ea8db29f410b69ac6ab13961953</plan_id>
+        <snapshot>349e4e60dbad3c90520c0bd3e296191b</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71090eecdb29f410b69ac6ab1396197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:44</sys_updated_on>
+        <trigger display_value="">61090eecdb29f410b69ac6ab1396197d</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>populate_inspection_tasks</internal_name>
+        <label_cache>[{"name":"57639882-1573-4190-882b-c2d1aaa74381.Table","label":"4➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57639882-1573-4190-882b-c2d1aaa74381.Record","label":"4➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b78c65b-2c2a-411c-b04b-c74734a4bf16.Table","label":"2➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8b78c65b-2c2a-411c-b04b-c74734a4bf16.Record","label":"2➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"931750fc-90f5-4fe8-8ae7-fdb2654b795b.Record","label":"1➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"931750fc-90f5-4fe8-8ae7-fdb2654b795b.Table","label":"1➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Inspection Record","reference":"x_snc_inspection_0_inspection","reference_display":"Inspection","type":"reference","base_type":"reference","attributes":{}},{"name":"d27e1c62-f67e-40bb-8985-eb200d2c575d.Record","label":"3➛Inspection Task Record","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d27e1c62-f67e-40bb-8985-eb200d2c575d.Table","label":"3➛Inspection Task Table","reference":"x_snc_inspection_0_inspection_task","reference_display":"Inspection Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Populate Inspection Tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Populate Inspection Tasks">13c58ea8db29f410b69ac6ab13961953</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9909caecdb29f410b69ac6ab139619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9909caecdb29f410b69ac6ab139619ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9909caecdb29f410b69ac6ab139619ce"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9909caecdb29f410b69ac6ab139619ce^sys_idNOT IN21090eecdb29f410b69ac6ab1396192c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>21090eecdb29f410b69ac6ab1396192c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:44</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=21090eecdb29f410b69ac6ab1396192c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>21090eecdb29f410b69ac6ab1396192c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:44</sys_created_on>
+        <sys_id>2d090eecdb29f410b69ac6ab1396192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:44</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>21090eecdb29f410b69ac6ab1396192c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:44</sys_created_on>
+        <sys_id>ed090eecdb29f410b69ac6ab1396192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:44</sys_updated_on>
+        <value>x_snc_inspection_0_inspection</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9909caecdb29f410b69ac6ab139619ce^sys_idNOT IN5509caecdb29f410b69ac6ab139619d0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9909caecdb29f410b69ac6ab139619ce</id>
+        <name>Populate Inspection Tasks</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>5509caecdb29f410b69ac6ab139619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=9909caecdb29f410b69ac6ab139619ce^sys_idNOT IN11090eecdb29f410b69ac6ab13961905,1d09caecdb29f410b69ac6ab139619d1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</model>
+        <model_id>9909caecdb29f410b69ac6ab139619ce</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9909caecdb29f410b69ac6ab139619ce</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>11090eecdb29f410b69ac6ab13961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</model>
+        <model_id>9909caecdb29f410b69ac6ab139619ce</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9909caecdb29f410b69ac6ab139619ce</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>1d09caecdb29f410b69ac6ab139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9909caecdb29f410b69ac6ab139619ce^sys_idNOT IN91090eecdb29f410b69ac6ab13961919,a5090eecdb29f410b69ac6ab1396192a,a9090eecdb29f410b69ac6ab13961924,ad090eecdb29f410b69ac6ab1396191e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>ABC and XYZ program info</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>91090eecdb29f410b69ac6ab13961919</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <ui_id>931750fc-90f5-4fe8-8ae7-fdb2654b795b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91090eecdb29f410b69ac6ab13961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91090eecdb29f410b69ac6ab13961919</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>19090eecdb29f410b69ac6ab1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=91090eecdb29f410b69ac6ab13961919"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>91090eecdb29f410b69ac6ab13961919</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>95090eecdb29f410b69ac6ab1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=ABC and XYZ program info^description=All policies, procedures, and guidelines relating to FINRA's ABC and XYZ programs, in effect during the Review Period.  This should include, but is not limited to, the following: objectives; correspondence; agreements; modules; training materials and job aids; frequently asked questions; memoranda; questionnaires; and schedules.^=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>91090eecdb29f410b69ac6ab13961919</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>d1090eecdb29f410b69ac6ab1396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Reports provided to Board</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>a5090eecdb29f410b69ac6ab1396192a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <ui_id>57639882-1573-4190-882b-c2d1aaa74381</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a5090eecdb29f410b69ac6ab1396192a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a5090eecdb29f410b69ac6ab1396192a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>2d090eecdb29f410b69ac6ab1396192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a5090eecdb29f410b69ac6ab1396192a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a5090eecdb29f410b69ac6ab1396192a</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>a9090eecdb29f410b69ac6ab1396192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Reports provided to Board^description=opies of any reports, studies, guidance, or memoranda, whether prepared by FINRA personnel or by a third party, that were provided to the Board or a committee of the Board related to FINRA 's ABC and XYZ programs.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>a5090eecdb29f410b69ac6ab1396192a</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>e5090eecdb29f410b69ac6ab1396192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Board Meeting Minutes</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>a9090eecdb29f410b69ac6ab13961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <ui_id>d27e1c62-f67e-40bb-8985-eb200d2c575d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a9090eecdb29f410b69ac6ab13961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a9090eecdb29f410b69ac6ab13961924</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>21090eecdb29f410b69ac6ab13961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a9090eecdb29f410b69ac6ab13961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a9090eecdb29f410b69ac6ab13961924</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>ad090eecdb29f410b69ac6ab13961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Board Meeting Minutes^description=All minutes of FINRA Board of Governors ("Board") meetings, including any committee meetings thereof both regular and special that discussed ABC or XYZ during the Review Period.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>a9090eecdb29f410b69ac6ab13961924</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>e9090eecdb29f410b69ac6ab13961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Org Chart Information</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Populate Inspection Tasks">9909caecdb29f410b69ac6ab139619ce</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>ad090eecdb29f410b69ac6ab1396191e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <ui_id>8b78c65b-2c2a-411c-b04b-c74734a4bf16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ad090eecdb29f410b69ac6ab1396191e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ad090eecdb29f410b69ac6ab1396191e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>25090eecdb29f410b69ac6ab13961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <value>x_snc_inspection_0_inspection_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ad090eecdb29f410b69ac6ab1396191e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>ad090eecdb29f410b69ac6ab1396191e</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>a1090eecdb29f410b69ac6ab13961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{Created_1.current}}^short_description=Org Chart Information^description=Current organizational charts of all FINRA A and B group ("A&amp;X") units and personnel, as well as of any other units or personnel within FINRA, with responsibilities related to FINRA's ABC and XYZ programs, including the A&amp;X CC unit.  Please include any current vacancies and contract personnel. Please also provide a description of any anticipated organization or personnel changes, if any.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>ad090eecdb29f410b69ac6ab1396191e</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>ed090eecdb29f410b69ac6ab1396191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9909caecdb29f410b69ac6ab139619ce^sys_idNOT IN11090eecdb29f410b69ac6ab13961901,dd090eecdb29f410b69ac6ab1396190b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9909caecdb29f410b69ac6ab139619ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>11090eecdb29f410b69ac6ab13961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9909caecdb29f410b69ac6ab139619ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:21:43</sys_created_on>
+        <sys_id>dd090eecdb29f410b69ac6ab1396190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:21:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>13c58ea8db29f410b69ac6ab13961953</sys_id>
+        <latest_snapshot>9909caecdb29f410b69ac6ab139619ce</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

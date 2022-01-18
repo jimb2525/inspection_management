@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p>Hi,<br /><br /></p>
+<p>&nbsp; &nbsp; &nbsp;Please see the attached documents for review.</p>
+<p>Thanks,</p>
+<p>${assigned_to.name}</p>
+<p>&nbsp;</p>]]></body_html>
+        <condition/>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from/>
+        <from_generation_type/>
+        <name>Inspection Template</name>
+        <order>100</order>
+        <recipients/>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>${number} - ${short_description}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-05 16:45:35</sys_created_on>
+        <sys_id>6dc49421db71fc10520c0bd3e2961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inspection Template</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_email_client_template_6dc49421db71fc10520c0bd3e2961984</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-05 16:45:35</sys_updated_on>
+        <table>x_snc_inspection_0_inspection</table>
+    </sys_email_client_template>
+</record_update>

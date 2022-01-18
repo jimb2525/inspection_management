@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description>&#13;
+Please score each question on a scale of 1-10&#13;
+[10 = "very much so" &amp; 1 = "not at all"] </description>
+        <details/>
+        <filter/>
+        <metric_type display_value="">fb591829db71fc10520c0bd3e29619dd</metric_type>
+        <name>Risk</name>
+        <order>1</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-05 17:06:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3e95469db71fc10520c0bd3e29619bd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Risk</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>asmt_metric_category_a3e95469db71fc10520c0bd3e29619bd</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 14:01:56</sys_updated_on>
+        <table>x_snc_inspection_0_inspection</table>
+        <total_metrics>0</total_metrics>
+        <weight>25</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=a3e95469db71fc10520c0bd3e29619bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>asmt_metric_category_a3e95469db71fc10520c0bd3e29619bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description>&#13;
+Please score each question on a scale of 1-10&#13;
+[10 = "very much so" &amp; 1 = "not at all"] </description><details/><filter/><metric_type display_value="">fb591829db71fc10520c0bd3e29619dd</metric_type><name>Risk</name><order>1</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-08-05 17:06:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3e95469db71fc10520c0bd3e29619bd</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Risk</sys_name><sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package><sys_policy/><sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope><sys_update_name>asmt_metric_category_a3e95469db71fc10520c0bd3e29619bd</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-08-11 14:01:56</sys_updated_on><table>x_snc_inspection_0_inspection</table><total_metrics>0</total_metrics><weight>25</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=a3e95469db71fc10520c0bd3e29619bd"/></record_update>]]></payload>
+        <payload_hash>-1157489070</payload_hash>
+        <record_name>Risk</record_name>
+        <reverted_from/>
+        <source>15e5f1a0dbe5f410b69ac6ab1396195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 14:01:56</sys_created_on>
+        <sys_id>5259261bdbb17850520c0bd3e2961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b35850b340000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 14:01:56</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>1a59261bb3b17850630012c0b6221307</update_guid>
+        <update_guid_history>1a59261bb3b17850630012c0b6221307:-1157489070,4a59e21b9ab17850a638505d8483edad:-290436845,38da5ca9bf71fc10a1b011c987891769:-293323840,386a90a97671fc10fb7f90c5d3255d5e:-1160376065,501a94696771fc1076f29d8128ba5314:-403996462</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Risk">da59261bdbb17850520c0bd3e296191a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 14:01:57</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>1b3fd66958804a83a0a092d205794e61</sys_id>
+        <sys_metadata>a3e95469db71fc10520c0bd3e29619bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_scope_delete display_value="">408663e0ada34e849d96323e715c95c4</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_a3e95469db71fc10520c0bd3e29619bd</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_a3e95469db71fc10520c0bd3e29619bd">5259261bdbb17850520c0bd3e2961908</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 14:01:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

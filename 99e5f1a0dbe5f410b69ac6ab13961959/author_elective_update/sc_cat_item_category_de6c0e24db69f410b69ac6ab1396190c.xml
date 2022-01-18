@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="New Inspection">3e3b0ea0db69f410b69ac6ab139619be</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:36:32</sys_created_on>
+        <sys_id>de6c0e24db69f410b69ac6ab1396190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.New Inspection</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sc_cat_item_category_de6c0e24db69f410b69ac6ab1396190c</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:36:32</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>sc_cat_item_category_de6c0e24db69f410b69ac6ab1396190c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="New Inspection">3e3b0ea0db69f410b69ac6ab139619be</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-07-21 12:36:32</sys_created_on><sys_id>de6c0e24db69f410b69ac6ab1396190c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.New Inspection</sys_name><sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package><sys_policy/><sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope><sys_update_name>sc_cat_item_category_de6c0e24db69f410b69ac6ab1396190c</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-07-21 12:36:32</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2129534199</payload_hash>
+        <record_name>Can We Help You?.New Inspection</record_name>
+        <reverted_from/>
+        <source>15e5f1a0dbe5f410b69ac6ab1396195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:36:32</sys_created_on>
+        <sys_id>926c0e24db69f410b69ac6ab13961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac9114e3d0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:36:32</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>d66c0e241e69f4108dcb04be63d0cd17</update_guid>
+        <update_guid_history>d66c0e241e69f4108dcb04be63d0cd17:2129534199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.New Inspection">097c4e24db69f410b69ac6ab1396193b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-07-21 12:36:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>05a4680a13c7474081bbf9b08a524400</sys_id>
+        <sys_metadata>de6c0e24db69f410b69ac6ab1396190c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.New Inspection</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_scope_delete display_value="">408663e0ada34e849d96323e715c95c4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_de6c0e24db69f410b69ac6ab1396190c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_de6c0e24db69f410b69ac6ab1396190c">926c0e24db69f410b69ac6ab13961918</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-07-21 12:36:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

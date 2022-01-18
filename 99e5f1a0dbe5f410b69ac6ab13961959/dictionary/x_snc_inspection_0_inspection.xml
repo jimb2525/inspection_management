@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" extends="task" label="Inspection" max_length="40" name="x_snc_inspection_0_inspection" sizeclass="1" type="collection">
+        <element choice="1" label="Inspection Type" max_length="40" name="inspection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Regulatory" sequence="10" value="regulatory"/>
+            </choice>
+        </element>
+        <element label="Liaison" max_length="32" name="liaison" reference="sys_user" type="reference"/>
+        <element label="OLC Assignee" max_length="32" name="olc_assignee" reference="sys_user" type="reference"/>
+        <element label="Percent Complete" max_length="40" name="percent_complete" type="integer"/>
+        <element label="Referrer" max_length="32" name="referrer" reference="core_company" type="reference"/>
+        <element label="SEC Interactions" max_length="40" name="sec_interactions" type="integer"/>
+        <element label="Sentiment Score" max_length="40" name="sentiment" type="integer"/>
+    </element>
+</database>

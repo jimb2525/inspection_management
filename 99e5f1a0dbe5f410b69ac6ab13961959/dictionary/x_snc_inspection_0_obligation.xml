@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Obligation" max_length="40" name="x_snc_inspection_0_obligation" sizeclass="4" type="collection">
+        <element label="Deficiency" max_length="32" name="deficiency" reference="x_snc_inspection_0_deficiency" type="reference"/>
+    </element>
+</database>

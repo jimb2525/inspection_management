@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="DELETE">
+        <active>false</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <allow_sentiment_analysis>false</allow_sentiment_analysis>
+        <anonymize>false</anonymize>
+        <business_rule/>
+        <chat_survey>false</chat_survey>
+        <condition table="x_snc_inspection_0_inspection">state=2^EQ<item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_filter>-- None --</default_filter>
+        <delete_business_rule/>
+        <description/>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>active</display_field>
+        <duration>1970-01-04 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table>x_snc_inspection_0_inspection</filter_table>
+        <introduction/>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>Inspection</name>
+        <not_show_intro_note>false</not_show_intro_note>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>false</one_click_survey>
+        <overdue_notify_user/>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles/>
+        <sample_metric/>
+        <scale_factor>10</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <source_table/>
+        <survey_owners>46ba57badb107c10b69ac6ab1396196b</survey_owners>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-05 17:05:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb591829db71fc10520c0bd3e29619dd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Inspection</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>asmt_metric_type_fb591829db71fc10520c0bd3e29619dd</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 13:58:42</sys_updated_on>
+        <table>x_snc_inspection_0_inspection</table>
+        <url/>
+        <user_field>assigned_to</user_field>
+    </asmt_metric_type>
+    <sys_translated_text action="DELETE" query="documentkey=fb591829db71fc10520c0bd3e29619dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</application>
+        <file_path/>
+        <instance_id>1010dfefdb9e1890f37acac5059619df</instance_id>
+        <instance_name>jbelote9demo</instance_name>
+        <name>asmt_metric_type_fb591829db71fc10520c0bd3e29619dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type"><asmt_metric_type action="INSERT_OR_UPDATE"><active>false</active><allow_public>false</allow_public><allow_retake>false</allow_retake><allow_sentiment_analysis>false</allow_sentiment_analysis><anonymize>false</anonymize><business_rule/><chat_survey>false</chat_survey><condition table="x_snc_inspection_0_inspection">state=2^EQ<item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><default_filter>-- None --</default_filter><delete_business_rule/><description/><disable_ui_action/><display_all_filters>false</display_all_filters><display_field>active</display_field><duration>1970-01-04 00:00:00</duration><enable_ui_action/><end_note/><enforce_condition>false</enforce_condition><evaluation_method>assessment</evaluation_method><filter_condition/><filter_table>x_snc_inspection_0_inspection</filter_table><introduction/><job/><live_feed>false</live_feed><name>Inspection</name><not_show_intro_note>false</not_show_intro_note><notify_if_overdue>false</notify_if_overdue><notify_user>true</notify_user><one_click_survey>false</one_click_survey><overdue_notify_user/><portal_pagination>category</portal_pagination><publish_state>published</publish_state><roles/><sample_metric/><scale_factor>10</scale_factor><schedule_period>0</schedule_period><schedule_type>on_demand</schedule_type><scoring_type>percent</scoring_type><signature/><source_table/><survey_owners>46ba57badb107c10b69ac6ab1396196b</survey_owners><sys_class_name>asmt_metric_type</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-08-05 17:05:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fb591829db71fc10520c0bd3e29619dd</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Inspection</sys_name><sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package><sys_policy/><sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope><sys_update_name>asmt_metric_type_fb591829db71fc10520c0bd3e29619dd</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-08-11 13:58:42</sys_updated_on><table>x_snc_inspection_0_inspection</table><url/><user_field>assigned_to</user_field></asmt_metric_type><sys_translated_text action="delete_multiple" query="documentkey=fb591829db71fc10520c0bd3e29619dd"/></record_update>]]></payload>
+        <payload_hash>1312610052</payload_hash>
+        <record_name>Inspection</record_name>
+        <reverted_from/>
+        <source>15e5f1a0dbe5f410b69ac6ab1396195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 14:01:54</sys_created_on>
+        <sys_id>b559e21bdbb17850520c0bd3e2961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b358501cf0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 14:01:54</sys_updated_on>
+        <type>Assessment Metric Type</type>
+        <update_guid>ba982e9740b17850dff6c89d8d9353da</update_guid>
+        <update_guid_history>ba982e9740b17850dff6c89d8d9353da:342173353,ba982e9740b17850dff6c89d8d9353da:342173353,ba982e9740b17850dff6c89d8d9353da:342173353,552dd4ad1c71fc101c8691ed964840e0:1668644840,013cdc2dbb71fc109ce695b9c9b7a145:882623862,ccd954690871fc102720e6b709e71076:1853933097</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Inspection">6659261bdbb17850520c0bd3e2961922</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 14:01:57</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_type">asmt_metric_type</sys_db_object>
+        <sys_id>281918c974874d3b8e1f78a8bf2c8ef1</sys_id>
+        <sys_metadata>fb591829db71fc10520c0bd3e29619dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inspection</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_scope_delete display_value="">408663e0ada34e849d96323e715c95c4</sys_scope_delete>
+        <sys_update_name>asmt_metric_type_fb591829db71fc10520c0bd3e29619dd</sys_update_name>
+        <sys_update_version display_value="asmt_metric_type_fb591829db71fc10520c0bd3e29619dd">b559e21bdbb17850520c0bd3e2961904</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 14:01:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

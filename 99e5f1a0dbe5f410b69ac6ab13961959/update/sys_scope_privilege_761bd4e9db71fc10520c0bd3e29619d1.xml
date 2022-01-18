@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-05 17:11:07</sys_created_on>
+        <sys_id>761bd4e9db71fc10520c0bd3e29619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideFilter.setCaseSensitive</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_scope_privilege_761bd4e9db71fc10520c0bd3e29619d1</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-05 17:11:07</sys_updated_on>
+        <target_name>GlideFilter.setCaseSensitive</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

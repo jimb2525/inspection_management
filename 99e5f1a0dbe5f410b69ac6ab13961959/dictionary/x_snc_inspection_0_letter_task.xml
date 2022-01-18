@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Letter Task" max_length="40" name="x_snc_inspection_0_letter_task" sizeclass="4" type="collection">
+        <element label="Sentiment Score" max_length="40" name="sentiment_score" type="integer"/>
+    </element>
+</database>
