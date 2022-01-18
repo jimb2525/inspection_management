@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>73849a17db317850520c0bd3e29619d1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_inspection_0_letter_task">
+    <x_snc_inspection_0_letter_task action="INSERT_OR_UPDATE">
+        <action_status/>
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to display_value="James Belote">46ba57badb107c10b69ac6ab1396196b</assigned_to>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at>2021-08-11 14:52:49</closed_at>
+        <closed_by display_value="James Belote">46ba57badb107c10b69ac6ab1396196b</closed_by>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date>2021-08-27 15:11:26</due_date>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <needs_attention>false</needs_attention>
+        <number>LTT0001005</number>
+        <opened_at>2021-08-11 12:31:06</opened_at>
+        <opened_by display_value="James Belote">46ba57badb107c10b69ac6ab1396196b</opened_by>
+        <order/>
+        <parent display_value="LET0001004">45305a9bdbfd3850520c0bd3e2961978</parent>
+        <priority>3</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <route_reason/>
+        <sentiment_score>7</sentiment_score>
+        <service_offering/>
+        <short_description>Gather all procedures</short_description>
+        <skills/>
+        <sla_due/>
+        <sn_esign_document/>
+        <sn_esign_esignature_configuration/>
+        <sn_hr_le_activity/>
+        <state>1</state>
+        <sys_class_name>x_snc_inspection_0_letter_task</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-08-11 12:31:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73849a17db317850520c0bd3e29619d1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-08-11 15:12:55</sys_updated_on>
+        <task_effective_number>LTT0001005</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_inspection_0_letter_task>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-01-18 16:26:52</sys_created_on>
+        <sys_id>cde803fadb098510b69ac6ab139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LTT0001005</sys_name>
+        <sys_package display_value="Inspection Management" source="x_snc_inspection_0">99e5f1a0dbe5f410b69ac6ab13961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inspection Management">99e5f1a0dbe5f410b69ac6ab13961959</sys_scope>
+        <sys_update_name>sys_metadata_link_cde803fadb098510b69ac6ab139619fa</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-01-18 16:26:52</sys_updated_on>
+        <tablename>x_snc_inspection_0_letter_task</tablename>
+    </sys_metadata_link>
+</record_update>
